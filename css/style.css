@@ -54,6 +54,10 @@
       transition: background 0.25s;
   }
 
+  .toggle-switch:before, .toggle-switch:after {
+      content: "";
+  }
+
 
 
 
