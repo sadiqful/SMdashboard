@@ -17,3 +17,11 @@
       font-family: 'Inter', sans-serif;
       font-size: 14px;
   }
+
+  .toggle-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+      border-top: 1px solid var(--text-secondary);
+  }
