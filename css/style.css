@@ -58,6 +58,44 @@
       content: "";
   }
 
+  .toggle-switch:before {
+      display: block;
+      background: var(--hover-bg);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      transition: left 0.25s;
+  }
 
+  .toggle:hover .toggle-switch:before {
+      background: var(--bg);
+  }
 
+  .toggle-checkbox:checked + .toggle-switch {
+      background: #aeb3cb;
+  }
 
+  .toggle-checkbox:checked + .toggle-switch:before {
+    left: 30px;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text-main);
+    padding: 22px;
+    position: relative;
+}
