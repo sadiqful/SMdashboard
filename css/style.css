@@ -12,3 +12,8 @@
   --card-bg: hsl(227, 47%, 96%);
   --text-main: hsl(230, 17%, 14%);
   --text-secondary: hsl(228, 12%, 44%); }
+
+  body {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+  }
