@@ -31,3 +31,11 @@
       font-weight: bold;
       margin-right: 8px;
   }
+
+  @media (min-width: 600px) {
+      .toggle-container {
+          border: none;
+      }
+  }
+
+
