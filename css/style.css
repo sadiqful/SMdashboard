@@ -164,8 +164,13 @@ header h3 {
 }
 
 .main-card:nth-child(1) {
-    
+    border-top-color: deepskyblue;
 }
-.main-card:nth-child(2)
-.main-card:nth-child(3)
+.main-card:nth-child(2) {
+    border-top-color: #1ca0f2;
+}
+.main-card:nth-child(3) {
+    position: relative;
+    border-top: 5px solid transparent;
+}
 .main-card:nth-child(4)
