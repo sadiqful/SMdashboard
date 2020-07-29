@@ -150,4 +150,22 @@ header h3 {
     }
 }
 
+.main-card {
+    background: var(--card-bg);
+    margin-bottom: 22px;
+    padding: 28px 0;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 5px solid transparent;
+}
 
+.main-card:hover {
+    background: var(--hover-bg);
+}
+
+.main-card:nth-child(1) {
+    
+}
+.main-card:nth-child(2)
+.main-card:nth-child(3)
+.main-card:nth-child(4)
