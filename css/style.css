@@ -25,3 +25,9 @@
       padding: 16px 0;
       border-top: 1px solid var(--text-secondary);
   }
+
+  .toggle-container p {
+      color: var(--text-secondary);
+      font-weight: bold;
+      margin-right: 8px;
+  }
