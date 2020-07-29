@@ -118,3 +118,34 @@ header h3 {
     }
 }
 
+.page-tittle {
+    padding-bottom: 22px;
+}
+
+@media (min-width: 600px) {
+    .page-tittle {
+        padding: 0;
+    }
+}
+
+.main-cards-container {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    .main-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 22px;
+    }
+}
+
+@media (min-width: 900) {
+    .main-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 22px;
+    }
+}
