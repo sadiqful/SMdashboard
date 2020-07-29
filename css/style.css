@@ -38,4 +38,22 @@
       }
   }
 
+  .toggle {
+      cursor: pointer;
+      display: inline-block;
+  }
+
+  .toggle-switch {
+      display: inline-block;
+      background: linear-gradient(45deg, #378fe6, #3eda82);
+      border-radius: 16px;
+      width: 58px;
+      height: 32px;
+      position: relative;
+      vertical-align: middle;
+      transition: background 0.25s;
+  }
+
+
+
 
