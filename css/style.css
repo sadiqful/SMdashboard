@@ -99,3 +99,22 @@ body {
     padding: 22px;
     position: relative;
 }
+
+header {
+    padding-bottom: 22px;
+}
+
+header h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+@media (min-width: 600px) {
+    header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
