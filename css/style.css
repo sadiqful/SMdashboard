@@ -291,6 +291,63 @@ header h3 {
     }
 }
 
+.overview-card {
+    background: var(--card-bg);
+    margin-bottom: 22px;
+    padding: 22px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-card:hover {
+    background: var(--hover-bg);
+}
+
+.overview__number {
+    text-align: left;
+}
+
+.overview__number p {
+    margin-bottom: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: var(--text-secondary);
+}
+
+
+.overview__number h2 {
+    font-size: 24px;
+}
+
+.overview__percents {
+    text-align: right;
+}
+
+.overview__percents i:first-child {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.overview__percents p {
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+    height: 12px;
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+}
+
+.attribution a {
+    color: var(--text-secondary);
+}
 
 
 
