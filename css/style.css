@@ -262,3 +262,35 @@ header h3 {
     font-size: 12 !important;
     margin-right: 6px;
 }
+
+.overview__title {
+    color: var(--text-secondary);
+    font-size: 18px;
+    margin: 10px 0 24px;
+}
+
+.overview-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+@media (min-width: 600px) {
+    .overview-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 22px;
+    }
+}
+
+@media (min-width: 900px) {
+    .overview-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 22px;
+    }
+}
+
+
+
+
