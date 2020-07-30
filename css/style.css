@@ -210,7 +210,7 @@ header p {
 }
 
 .username {
-    color: var(--var-secondary);
+    color: var(--text-secondary);
     margin-bottom: 30px;
     font-weight: bold;
     display: flex;
