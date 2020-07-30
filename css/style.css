@@ -245,4 +245,20 @@ header h3 {
     margin-right: 6px;
 }
 
+.up {
+    color: #1db489;
+}
 
+.up i {
+    font-size: 12 !important;
+    margin-right: 6px;
+}
+
+.down {
+    color: #dc414c;
+}
+
+.down i {
+    font-size: 12 !important;
+    margin-right: 6px;
+}
