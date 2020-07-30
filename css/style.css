@@ -224,4 +224,25 @@ header h3 {
     color: #c4032a;
 }
 
+.followers__number {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 8px;
+}
+
+.followers__tittle {
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.followers__today {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.followers__today i {
+    margin-right: 6px;
+}
+
 
