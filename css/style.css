@@ -206,4 +206,22 @@ header h3 {
     font-size: 24px;
 }
 
+.fa-facebook-square {
+    color: deepskyblue;
+}
+
+.fa-twitter {
+    color: #1ca0f2;
+}
+
+.fa-instagram {
+    background: linear-gradient(45deg, #fdc468, #df4996);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube-square {
+    color: #c4032a;
+}
+
 
