@@ -13,11 +13,6 @@
   --text-main: hsl(230, 17%, 14%);
   --text-secondary: hsl(228, 12%, 44%); }
 
-  body {
-      font-family: 'Inter', sans-serif;
-      font-size: 14px;
-  }
-
   .toggle-container {
       display: flex;
       justify-content: space-between;
@@ -98,6 +93,8 @@ body {
     color: var(--text-main);
     padding: 22px;
     position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
 header {
@@ -118,12 +115,12 @@ header h3 {
     }
 }
 
-.page-tittle {
+.page-title {
     padding-bottom: 22px;
 }
 
 @media (min-width: 600px) {
-    .page-tittle {
+    .page-title {
         padding: 0;
     }
 }
@@ -230,11 +227,13 @@ header h3 {
     margin-bottom: 8px;
 }
 
-.followers__tittle {
+.followers__title {
     color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 14px;
 }
+
 
 .followers__today {
     font-weight: bold;
