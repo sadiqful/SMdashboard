@@ -172,5 +172,22 @@ header h3 {
 .main-card:nth-child(3) {
     position: relative;
     border-top: 5px solid transparent;
+    border-radius: 0 0 5px 5px;
+    margin: 5p;
 }
-.main-card:nth-child(4)
+
+.main-card:nth-child(3):before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    margin: -10px 0 0 0;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(45deg, #fdc468, #df4996);
+}
+.main-card:nth-child(4) {
+    border-top-color: #c4032a;
+}
